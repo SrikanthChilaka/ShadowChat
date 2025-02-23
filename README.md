@@ -1,8 +1,16 @@
-# Final Project
+# ShadowChat
 
-## Chat Application 
+## ShadowChat is a real-time, anonymous chat application built with Node.js, Express, and React. It enables secure communication with features such as user authentication, session management, and live message exchange.
 
-## The ShadowChat Chat Application is a real-time chat platform that allows users to communicate with each other. It provides features for user authentication, session management, and message exchange.
+## Features ✨
+
+* Users have an authentication step
+* Used fetch() and promises directly.
+* All authenticated users have access to the same set of endpoints.
+* The server implements service pagination for the /api/messages endpoint.
+* Validated the username.
+* Message History: Users can view the complete message history for the chat, regardless of their current session.
+* Displaying the loading indicator while the messages are being fetched or a message is being sent.
 
 ## Server
 
@@ -23,13 +31,6 @@ Endpoint                           | Method  | Description                      
 /api/messages/:username/:clientId  | POST    |Sends a message for a specific user and client ID   | Authenticated      |
 /api/messages                      | GET     |Retrieves all messages                              | Authenticated      |
 
-* Users have an authentication step
-* Used fetch() and promises directly.
-* All authenticated users have access to the same set of endpoints.
-* The server implements service pagination for the /api/messages endpoint.
-* Banned user "dog" and validated the username.
-* Message History: Users can view the complete message history for the chat, regardless of their current session.
-* Displaying the loading indicator while the messages are being fetched or a message is being sent.
 
 ### Client ID Generation and Session Management
 
