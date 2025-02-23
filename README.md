@@ -1,8 +1,8 @@
 # ShadowChat
 
-## **ShadowChat** is a real-time, anonymous chat application built with Node.js, Express, and React. It enables secure communication with features such as user authentication, session management, and live message exchange.
+## ShadowChat is a real-time, anonymous chat application built with Node.js, Express, and React. It enables secure communication with features such as user authentication, session management, and live message exchange.
 
-## Features ✨
+## Features
 
 * Users have an authentication step
 * Used fetch() and promises directly.
