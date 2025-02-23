@@ -1,0 +1,85 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./assets/background.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+@keyframes spinner-two {
+  0% {transform: rotate(0deg);}
+  to {transform: rotate(359deg);}
+}
+
+.gg-spinner-two {
+  transform: scale(var(--ggs,1));
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.gg-spinner-two::after,
+.gg-spinner-two::before {
+  box-sizing: border-box;
+  display: block;
+  width: 20px;
+  height: 20px;
+  content: "";
+  position: absolute;
+  border-radius: 100px;
+}
+
+.gg-spinner-two::before {
+  animation: spinner-two 1s cubic-bezier(.6,0,.4,1) infinite;
+  border: 3px solid transparent;
+  border-bottom-color: currentColor;
+  border-top-color: currentColor;
+}
+
+.gg-spinner-two::after {
+  border: 3px solid;
+  opacity: .2;
+}
