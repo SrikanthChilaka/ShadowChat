@@ -2,7 +2,7 @@
 
 ## Chat Application 
 
-## The Chat Application is a real-time chat platform that allows users to communicate with each other. It provides features for user authentication, session management, and message exchange.
+## The ShadowChat Chat Application is a real-time chat platform that allows users to communicate with each other. It provides features for user authentication, session management, and message exchange.
 
 ## Server
 
